@@ -92,4 +92,10 @@ class Params {
         texts[] = {"None", "Players Only", "All"};
         default = 1;
     };
+    class ot_setmodunits {
+	title = "Use specific units from mod (Make sure mod is loaded!)"
+	values[] = {0, 1, 2};
+	texts[] = {"Vanilla/Standard", "Iron Front ArmA 3 (IFA3_AIO_LITE)", "Community Upgrade Project (CUP)"}
+	default = 0;
+    };
 };
